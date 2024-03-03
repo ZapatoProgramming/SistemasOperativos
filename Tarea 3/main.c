@@ -66,7 +66,7 @@ int main() {
     creat("datos.txt",111111111);
     creat("datos2.txt",111111111);
     printf("Del archivo data.txt-----------------------------------------------------------\n");
-    fd = open("datos123123123.txt",1);//hacemos el descriptor de solo escritura para el archivo 1
+    fd = open("datos123123123.txt",1);//hacemos el descriptor de solo escritura para el archivo 1 (Error forzado)
     isValid(fd); //revisa si es valido el descriptor
     fillArray(fd);
     close(fd);
